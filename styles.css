@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url("https://media.bizj.us/view/img/8190162/istock000050895978medium*1024xx1784-1001-0-73.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 180vh;
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+}
+
+.container {
+    background-color: rgba(130, 208, 254, 0.5);
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    height: 180vh;
+    padding: 3em;
+}
+
+h1,
+p {
+    text-align: center;
+}
+
+p {
+    font-size: 1.3em;
+    font-style: italic;
+    font-weight: 500;
+    width: 30em;
+    margin: auto;
+    margin-bottom: 1.7em;
+}
+
+form {
+    background-color: rgb(6, 123, 192);
+    width: 40em;
+    height: 67em;
+    margin: auto;
+    padding: 3em;
+}
+
+label {
+    display: block;
+    color: white;
+    font-size: 1.2em;
+    line-height: 2em;
+    margin-top: 0.2em;
+}
+
+input {
+    display: block;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+    display: inline-block
+}
+
+input[type="text"],
+input[type="number"],
+input[type="email"],
+select {
+    width: 28em;
+    padding: 0.6em;
+    font-size: 1em;
+}
+
+textarea {
+    width: 34em;
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+
+input[type="submit"] {
+    width: 20em;
+    padding: 0.5em;
+    background-color: rgb(5, 51, 77);
+    border: 1px solid rgb(5, 51, 77);
+    color: white;
+    font-size: 1em;
+    margin: auto;
+}
